@@ -34,10 +34,11 @@
 
 
 
-- Captura: 
+- Captura: [http-local-filtrado.pcapng](evidencias/http-local-filtrado.pcapng)
 
 ## Lições aprendidas
-- Observei que ao realizar a requisição HTTP o protocolo TCP faz a verificação em 3 etapas e só depois da comunicação ter sido validada corretamente é liberado o acesso HTTP com o GET 200 ok 
+- Entendi na pratica conceitos basicos de topologia de rede, cabeamente e pings, além disso configurei um roteador pela primeira vez e aprendi com os meus erros. 
+- Observei que ao realizar a requisição HTTP o protocolo TCP faz a verificação em 3 etapas e só depois da comunicação ter sido validada corretamente é liberado o acesso HTTP (GET 200 ok) 
 
 ## Próximos passos
 - DHCP no roteador; VLANs; NAT.
