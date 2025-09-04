@@ -24,13 +24,13 @@
    filtrar `tcp.port == 8000`, abrir **Follow → TCP Stream**.
 3. Salvar captura como `http-local.pcapng`.
 
-## Evidências (adicione seus arquivos aqui)
+## Evidências 
 - ![Topologia](evidencias/topologia.png)
 - ![Ping](evidencias/ping_sucesso.png)
 - Captura: [`evidencias/http-local.pcapng`](evidencias/http-local.pcapng)
 
 ## Lições aprendidas
-- (escreva 2–3 bullets)
+- 
 
 ## Próximos passos
 - DHCP no roteador; VLANs; NAT.
