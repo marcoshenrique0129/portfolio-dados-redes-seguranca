@@ -4,10 +4,10 @@
 - Montar **2 PCs + Switch + Roteador** e validar com `ping`.
 - Capturar **HTTP local** no Wireshark (porta 8000) e identificar **GET / 200 OK**.
 
-## Endereçamento (sugestão /24)
-- Router G0/0 → `192.168.1.1/24`
-- PC0 → `192.168.1.10/24` (GW `192.168.1.1`)
-- PC1 → `192.168.1.11/24` (GW `192.168.1.1`)
+## Endereçamento (192.168.0.1/24)
+- Router G0/0 → `192.168.0.1/24`
+- PC0 → `192.168.1.02/24` (GW `192.168.1.1`)
+- PC1 → `192.168.1.03/24` (GW `192.168.1.1`)
 
 ## Passos resumidos
 1. Packet Tracer: montar topologia e configurar IPs; no router:
@@ -15,7 +15,7 @@
    enable
    conf t
    interface g0/0
-    ip address 192.168.1.1 255.255.255.0
+    ip address 192.168.0.1 255.255.255.0
     no shutdown
    end
    write memory
